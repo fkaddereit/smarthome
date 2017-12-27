@@ -11,6 +11,7 @@ Successfully tested are internet radios
  * [Roberts Stream 93i](https://www.robertsradio.com/uk/products/radio/smart-radio/stream-93i)
  * [auna Connect 150](http://www.auna.de/HiFi-Geraete/Radios/Internetradios/auna-Connect-150-BK-2-1-Internetradio-Mediaplayer-schwarz.html)
  * [TechniSat DIGITRADIO 350 IR](https://www.technisat.com/de_DE/DIGITRADIO-350-IR/352-10996-10329/)
+ * [SilverCrest SMRS 18 A1](http://www.silvercrest-multiroom.de/en/products/wifi-speaker-18-w/)
 
 But in principle, all internet radios based on the [Frontier Silicon chipset](http://www.frontier-silicon.com/) should be supported because they share the same API.
 
@@ -52,13 +53,17 @@ All devices support some of the following channels:
 
 The radio mode depends on the internet radio model (and probably its firmware version):
 
-| Radio mode | Hama IR110 | Medion MD87180 | Medion MD 86988 |
-|------------|------------|----------------|-----------------|
-| 0 | Internet Radio | Internet Radio | Internet Radio |
-| 1 | Spotify | Music Player (USB, LAN) | Music Player |
-| 2 | Player | DAB Radio | FM Radio |
-| 3 | AUX in | FM Radio | AUX in |
-| 4 | - | AUX in | - |
+| Radio mode | Hama IR110 | Medion MD87180 | Medion MD 86988 | SilverCrest SMRS 18A1 |
+|------------|------------|----------------|-----------------|-----------------------|
+| 0 | Internet Radio | Internet Radio | Internet Radio | Internet Radio |
+| 1 | Spotify | Music Player (USB, LAN) | Music Player | TIDAL |
+| 2 | Player | DAB Radio | FM Radio | Napster |
+| 3 | AUX in | FM Radio | AUX in | Deezer |
+| 4 | - | AUX in | - | Qobuz |
+| 5 | - | - | - | Spotify |
+| 6 | - | - | - | Local Music |
+| 7 | - | - | - | Music Player (USB) |
+| 8 | - | - | - | AUX in |
 
 ## Full Example
 
